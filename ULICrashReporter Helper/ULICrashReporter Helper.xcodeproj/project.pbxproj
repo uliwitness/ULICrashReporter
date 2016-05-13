@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5564123D1CE68CBF00D6FBBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5564123C1CE68CBF00D6FBBB /* AppDelegate.m */; };
+		556412401CE68CBF00D6FBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5564123F1CE68CBF00D6FBBB /* main.m */; };
+		556412421CE68CBF00D6FBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556412411CE68CBF00D6FBBB /* Assets.xcassets */; };
+		556412451CE68CBF00D6FBBB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556412431CE68CBF00D6FBBB /* MainMenu.xib */; };
+		5564125A1CE68D5400D6FBBB /* ULICrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 556412591CE68D5400D6FBBB /* ULICrashReporter.m */; };
+		5564125D1CE68D8100D6FBBB /* ULICrashReporterStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5564125B1CE68D8100D6FBBB /* ULICrashReporterStrings.strings */; };
+		556412601CE68D8700D6FBBB /* ULICrashReporter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5564125E1CE68D8700D6FBBB /* ULICrashReporter.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		556412381CE68CBF00D6FBBB /* ULICrashReporter Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ULICrashReporter Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5564123B1CE68CBF00D6FBBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5564123C1CE68CBF00D6FBBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5564123F1CE68CBF00D6FBBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		556412411CE68CBF00D6FBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		556412441CE68CBF00D6FBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		556412461CE68CBF00D6FBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556412581CE68D5400D6FBBB /* ULICrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULICrashReporter.h; sourceTree = "<group>"; };
+		556412591CE68D5400D6FBBB /* ULICrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULICrashReporter.m; sourceTree = "<group>"; };
+		5564125C1CE68D8100D6FBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/ULICrashReporterStrings.strings; sourceTree = "<group>"; };
+		5564125F1CE68D8700D6FBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ULICrashReporter.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556412351CE68CBF00D6FBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5564122F1CE68CBF00D6FBBB = {
+			isa = PBXGroup;
+			children = (
+				5564123A1CE68CBF00D6FBBB /* ULICrashReporter Helper */,
+				556412391CE68CBF00D6FBBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		556412391CE68CBF00D6FBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556412381CE68CBF00D6FBBB /* ULICrashReporter Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5564123A1CE68CBF00D6FBBB /* ULICrashReporter Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5564123B1CE68CBF00D6FBBB /* AppDelegate.h */,
+				5564123C1CE68CBF00D6FBBB /* AppDelegate.m */,
+				556412581CE68D5400D6FBBB /* ULICrashReporter.h */,
+				556412591CE68D5400D6FBBB /* ULICrashReporter.m */,
+				556412411CE68CBF00D6FBBB /* Assets.xcassets */,
+				556412431CE68CBF00D6FBBB /* MainMenu.xib */,
+				5564125E1CE68D8700D6FBBB /* ULICrashReporter.xib */,
+				5564125B1CE68D8100D6FBBB /* ULICrashReporterStrings.strings */,
+				556412461CE68CBF00D6FBBB /* Info.plist */,
+				5564123E1CE68CBF00D6FBBB /* Supporting Files */,
+			);
+			path = "ULICrashReporter Helper";
+			sourceTree = "<group>";
+		};
+		5564123E1CE68CBF00D6FBBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5564123F1CE68CBF00D6FBBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556412371CE68CBF00D6FBBB /* ULICrashReporter Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556412491CE68CBF00D6FBBB /* Build configuration list for PBXNativeTarget "ULICrashReporter Helper" */;
+			buildPhases = (
+				556412341CE68CBF00D6FBBB /* Sources */,
+				556412351CE68CBF00D6FBBB /* Frameworks */,
+				556412361CE68CBF00D6FBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ULICrashReporter Helper";
+			productName = "ULICrashReporter Helper";
+			productReference = 556412381CE68CBF00D6FBBB /* ULICrashReporter Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556412301CE68CBF00D6FBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Uli Kusterer";
+				TargetAttributes = {
+					556412371CE68CBF00D6FBBB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 556412331CE68CBF00D6FBBB /* Build configuration list for PBXProject "ULICrashReporter Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5564122F1CE68CBF00D6FBBB;
+			productRefGroup = 556412391CE68CBF00D6FBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556412371CE68CBF00D6FBBB /* ULICrashReporter Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		556412361CE68CBF00D6FBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556412601CE68D8700D6FBBB /* ULICrashReporter.xib in Resources */,
+				556412421CE68CBF00D6FBBB /* Assets.xcassets in Resources */,
+				5564125D1CE68D8100D6FBBB /* ULICrashReporterStrings.strings in Resources */,
+				556412451CE68CBF00D6FBBB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556412341CE68CBF00D6FBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5564125A1CE68D5400D6FBBB /* ULICrashReporter.m in Sources */,
+				556412401CE68CBF00D6FBBB /* main.m in Sources */,
+				5564123D1CE68CBF00D6FBBB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		556412431CE68CBF00D6FBBB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556412441CE68CBF00D6FBBB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5564125B1CE68D8100D6FBBB /* ULICrashReporterStrings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5564125C1CE68D8100D6FBBB /* Base */,
+			);
+			name = ULICrashReporterStrings.strings;
+			sourceTree = "<group>";
+		};
+		5564125E1CE68D8700D6FBBB /* ULICrashReporter.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5564125F1CE68D8700D6FBBB /* Base */,
+			);
+			name = ULICrashReporter.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		556412471CE68CBF00D6FBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		556412481CE68CBF00D6FBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5564124A1CE68CBF00D6FBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ULICrashReporter Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thevoidsoftware.ULICrashReporter-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5564124B1CE68CBF00D6FBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ULICrashReporter Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thevoidsoftware.ULICrashReporter-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556412331CE68CBF00D6FBBB /* Build configuration list for PBXProject "ULICrashReporter Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556412471CE68CBF00D6FBBB /* Debug */,
+				556412481CE68CBF00D6FBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556412491CE68CBF00D6FBBB /* Build configuration list for PBXNativeTarget "ULICrashReporter Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5564124A1CE68CBF00D6FBBB /* Debug */,
+				5564124B1CE68CBF00D6FBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 556412301CE68CBF00D6FBBB /* Project object */;
+}
