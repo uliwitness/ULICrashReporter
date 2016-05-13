@@ -11,7 +11,7 @@
 		556412231CE68C6600D6FBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556412221CE68C6600D6FBBB /* main.m */; };
 		556412251CE68C6600D6FBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556412241CE68C6600D6FBBB /* Assets.xcassets */; };
 		556412281CE68C6600D6FBBB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556412261CE68C6600D6FBBB /* MainMenu.xib */; };
-		556412661CE6970700D6FBBB /* ULICrashReporter Helper.app in Resources */ = {isa = PBXBuildFile; fileRef = 556412571CE68D0800D6FBBB /* ULICrashReporter Helper.app */; };
+		5564126D1CE6991100D6FBBB /* ULICrashReporter Helper.app in Resources */ = {isa = PBXBuildFile; fileRef = 556412571CE68D0800D6FBBB /* ULICrashReporter Helper.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +23,27 @@
 			remoteInfo = "ULICrashReporter Helper";
 		};
 		556412641CE68FE000D6FBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556412521CE68D0800D6FBBB /* ULICrashReporter Helper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 556412371CE68CBF00D6FBBB;
+			remoteInfo = "ULICrashReporter Helper";
+		};
+		556412681CE698ED00D6FBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556412521CE68D0800D6FBBB /* ULICrashReporter Helper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 556412371CE68CBF00D6FBBB;
+			remoteInfo = "ULICrashReporter Helper";
+		};
+		5564126B1CE698F700D6FBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556412521CE68D0800D6FBBB /* ULICrashReporter Helper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 556412371CE68CBF00D6FBBB;
+			remoteInfo = "ULICrashReporter Helper";
+		};
+		5564126E1CE6991100D6FBBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 556412521CE68D0800D6FBBB /* ULICrashReporter Helper.xcodeproj */;
 			proxyType = 1;
@@ -114,6 +135,9 @@
 			);
 			dependencies = (
 				556412651CE68FE000D6FBBB /* PBXTargetDependency */,
+				556412691CE698ED00D6FBBB /* PBXTargetDependency */,
+				5564126C1CE698F700D6FBBB /* PBXTargetDependency */,
+				5564126F1CE6991100D6FBBB /* PBXTargetDependency */,
 			);
 			name = CrashTestApp;
 			productName = CrashTestApp;
@@ -175,7 +199,7 @@
 			files = (
 				556412251CE68C6600D6FBBB /* Assets.xcassets in Resources */,
 				556412281CE68C6600D6FBBB /* MainMenu.xib in Resources */,
-				556412661CE6970700D6FBBB /* ULICrashReporter Helper.app in Resources */,
+				5564126D1CE6991100D6FBBB /* ULICrashReporter Helper.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +222,21 @@
 			isa = PBXTargetDependency;
 			name = "ULICrashReporter Helper";
 			targetProxy = 556412641CE68FE000D6FBBB /* PBXContainerItemProxy */;
+		};
+		556412691CE698ED00D6FBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ULICrashReporter Helper";
+			targetProxy = 556412681CE698ED00D6FBBB /* PBXContainerItemProxy */;
+		};
+		5564126C1CE698F700D6FBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ULICrashReporter Helper";
+			targetProxy = 5564126B1CE698F700D6FBBB /* PBXContainerItemProxy */;
+		};
+		5564126F1CE6991100D6FBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ULICrashReporter Helper";
+			targetProxy = 5564126E1CE6991100D6FBBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -675,6 +675,22 @@
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IxE-ji-3Gg">
+                        <rect key="frame" x="202" y="163" width="76" height="32"/>
+                        <buttonCell key="cell" type="push" title="Crash" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mTL-mF-nz4">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="doCrash:" target="Voe-Tx-rLC" id="JHr-0z-Rwr"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IxE-ji-3Gg" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="CSI-im-D66"/>
+                    <constraint firstItem="IxE-ji-3Gg" firstAttribute="centerY" secondItem="EiT-Mj-1SZ" secondAttribute="centerY" id="RVK-ZX-ESv"/>
+                </constraints>
             </view>
         </window>
     </objects>

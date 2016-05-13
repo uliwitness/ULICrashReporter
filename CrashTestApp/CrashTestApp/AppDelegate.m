@@ -16,11 +16,27 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application
+	NSString	*	theCrashReporter = [[NSBundle mainBundle] pathForResource: @"CrashTestApp Crash Reporter" ofType: @"app"];
+	[[NSWorkspace sharedWorkspace] launchApplication: theCrashReporter];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-	// Insert code here to tear down your application
+	NSURL	*	theCrashReporter = [[NSBundle mainBundle] URLForResource: @"CrashTestApp Crash Reporter" withExtension: @"app"];
+	for( NSRunningApplication* app in [[NSWorkspace sharedWorkspace] runningApplications] )
+	{
+		if( [app.bundleURL isEqualTo: theCrashReporter] )
+		{
+			[app terminate];
+			break;
+		}
+	}
+}
+
+
+-(IBAction) doCrash: (id)sender
+{
+	int	*	myInt = NULL;
+	*myInt = 1234;
 }
 
 @end
