@@ -19,6 +19,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+	//(*(int*)0) = 1234;
+	
 	ULICrashReporterCheckForCrash();
 }
 

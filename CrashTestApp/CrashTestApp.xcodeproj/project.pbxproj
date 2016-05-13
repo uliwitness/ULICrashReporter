@@ -11,6 +11,7 @@
 		556412231CE68C6600D6FBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556412221CE68C6600D6FBBB /* main.m */; };
 		556412251CE68C6600D6FBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556412241CE68C6600D6FBBB /* Assets.xcassets */; };
 		556412281CE68C6600D6FBBB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556412261CE68C6600D6FBBB /* MainMenu.xib */; };
+		556412661CE6970700D6FBBB /* ULICrashReporter Helper.app in Resources */ = {isa = PBXBuildFile; fileRef = 556412571CE68D0800D6FBBB /* ULICrashReporter Helper.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,7 @@
 			files = (
 				556412251CE68C6600D6FBBB /* Assets.xcassets in Resources */,
 				556412281CE68C6600D6FBBB /* MainMenu.xib in Resources */,
+				556412661CE6970700D6FBBB /* ULICrashReporter Helper.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
