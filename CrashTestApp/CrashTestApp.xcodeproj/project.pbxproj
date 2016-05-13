@@ -21,6 +21,13 @@
 			remoteGlobalIDString = 556412381CE68CBF00D6FBBB;
 			remoteInfo = "ULICrashReporter Helper";
 		};
+		556412641CE68FE000D6FBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556412521CE68D0800D6FBBB /* ULICrashReporter Helper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 556412371CE68CBF00D6FBBB;
+			remoteInfo = "ULICrashReporter Helper";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +112,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				556412651CE68FE000D6FBBB /* PBXTargetDependency */,
 			);
 			name = CrashTestApp;
 			productName = CrashTestApp;
@@ -182,6 +190,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		556412651CE68FE000D6FBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ULICrashReporter Helper";
+			targetProxy = 556412641CE68FE000D6FBBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		556412261CE68C6600D6FBBB /* MainMenu.xib */ = {
@@ -285,6 +301,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.CrashTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				ULICRASHREPORTER_HELPER_NAME = "CrashTestApp Crash Reporter";
 			};
 			name = Debug;
 		};
@@ -297,6 +314,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.CrashTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				ULICRASHREPORTER_HELPER_NAME = "CrashTestApp Crash Reporter";
 			};
 			name = Release;
 		};

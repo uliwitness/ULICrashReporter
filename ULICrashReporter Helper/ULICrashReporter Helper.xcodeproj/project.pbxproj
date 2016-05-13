@@ -14,6 +14,7 @@
 		5564125A1CE68D5400D6FBBB /* ULICrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 556412591CE68D5400D6FBBB /* ULICrashReporter.m */; };
 		5564125D1CE68D8100D6FBBB /* ULICrashReporterStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5564125B1CE68D8100D6FBBB /* ULICrashReporterStrings.strings */; };
 		556412601CE68D8700D6FBBB /* ULICrashReporter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5564125E1CE68D8700D6FBBB /* ULICrashReporter.xib */; };
+		556412631CE68E8000D6FBBB /* ULISystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 556412621CE68E8000D6FBBB /* ULISystemInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		556412591CE68D5400D6FBBB /* ULICrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULICrashReporter.m; sourceTree = "<group>"; };
 		5564125C1CE68D8100D6FBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/ULICrashReporterStrings.strings; sourceTree = "<group>"; };
 		5564125F1CE68D8700D6FBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ULICrashReporter.xib; sourceTree = "<group>"; };
+		556412611CE68E8000D6FBBB /* ULISystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULISystemInfo.h; sourceTree = "<group>"; };
+		556412621CE68E8000D6FBBB /* ULISystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULISystemInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				5564123C1CE68CBF00D6FBBB /* AppDelegate.m */,
 				556412581CE68D5400D6FBBB /* ULICrashReporter.h */,
 				556412591CE68D5400D6FBBB /* ULICrashReporter.m */,
+				556412611CE68E8000D6FBBB /* ULISystemInfo.h */,
+				556412621CE68E8000D6FBBB /* ULISystemInfo.m */,
 				556412411CE68CBF00D6FBBB /* Assets.xcassets */,
 				556412431CE68CBF00D6FBBB /* MainMenu.xib */,
 				5564125E1CE68D8700D6FBBB /* ULICrashReporter.xib */,
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5564125A1CE68D5400D6FBBB /* ULICrashReporter.m in Sources */,
+				556412631CE68E8000D6FBBB /* ULISystemInfo.m in Sources */,
 				556412401CE68CBF00D6FBBB /* main.m in Sources */,
 				5564123D1CE68CBF00D6FBBB /* AppDelegate.m in Sources */,
 			);
@@ -278,7 +284,8 @@
 				INFOPLIST_FILE = "ULICrashReporter Helper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thevoidsoftware.ULICrashReporter-Helper";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(ULICRASHREPORTER_HELPER_NAME)";
+				ULICRASHREPORTER_HELPER_NAME = "ULICrashReporter Helper";
 			};
 			name = Debug;
 		};
@@ -290,7 +297,8 @@
 				INFOPLIST_FILE = "ULICrashReporter Helper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thevoidsoftware.ULICrashReporter-Helper";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(ULICRASHREPORTER_HELPER_NAME)";
+				ULICRASHREPORTER_HELPER_NAME = "ULICrashReporter Helper";
 			};
 			name = Release;
 		};

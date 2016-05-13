@@ -1,5 +1,5 @@
 //
-//  UKCrashReporter.h
+//  ULICrashReporter.h
 //  NiftyFeatures
 //
 //  Created by Uli Kusterer on Sat Feb 04 2006.
@@ -29,8 +29,7 @@
 //	Headers:
 // -----------------------------------------------------------------------------
 
-#import <Foundation/Foundation.h>
-#import "UKNibOwner.h"
+#import <Cocoa/Cocoa.h>
 
 
 #if __cplusplus
@@ -50,16 +49,15 @@ extern "C" {
 	URLs for different locales that way, in case a crash is caused by an error
 	in a localized file.
 */
-void	UKCrashReporterCheckForCrash( void );
+void	ULICrashReporterCheckForCrash( void );
 
 
 // -----------------------------------------------------------------------------
 //	Classes:
 // -----------------------------------------------------------------------------
 
-@interface UKCrashReporter : UKNibOwner
+@interface ULICrashReporter : NSWindowController
 {
-	IBOutlet NSWindow*				reportWindow;
 	IBOutlet NSTextView*			informationField;
 	IBOutlet NSTextView*			crashLogField;
 	IBOutlet NSTextField*			explanationField;
@@ -78,12 +76,10 @@ void	UKCrashReporterCheckForCrash( void );
 -(IBAction)	remindMeLater: (id)sender;
 -(IBAction)	discardCrashReport: (id)sender;
 
--(NSWindow*)	window;
-
 @end
 
 
-@interface UKFeedbackProvider : NSObject
+@interface ULIFeedbackProvider : NSObject
 {
 	
 }

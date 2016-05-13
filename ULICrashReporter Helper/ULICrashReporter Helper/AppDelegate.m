@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ULICrashReporter.h"
+
 
 @interface AppDelegate ()
 
@@ -15,8 +17,9 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+	ULICrashReporterCheckForCrash();
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
